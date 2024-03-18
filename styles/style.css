@@ -164,6 +164,14 @@ footer{
     text-align: center;
 }
 
+footer div {
+    border: #000000;
+    background: fixed coral; 
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+}
+
 #active1{
     
     background-color: rgb(73, 24, 24);
