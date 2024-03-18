@@ -166,10 +166,23 @@ footer{
 
 footer div {
     border: #000000;
-    background: fixed coral; 
+    background: fixed ; 
     padding: 15px;
-    margin: 10px;
     text-decoration: none;
+}
+
+footer div a {
+    list-style-type: none;
+    background-color: rgb(0, 255, 170);
+    color: #000000;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.footermenu:hover {
+
 }
 
 #active1{
@@ -285,3 +298,4 @@ footer div {
     max-width: 30em;
     background-color: white;
 }
+
