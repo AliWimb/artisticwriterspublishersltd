@@ -30,11 +30,20 @@ section.intro{
 
 .videocontent{
     float:left;
-    margin: left 5px;
     width: 49%;
     border: 2px solid rgb(56, 214, 56);
     background: rgb(255, 255, 255);
     overflow: auto;
+}
+
+div.map {
+    margin-top: 250px;
+    margin-left: 8px;
+    color: white;
+    background: rgb(2, 94, 74);
+    border: none;
+    width: 55%;
+    height: 400px;
 }
 
 nav {
@@ -330,10 +339,6 @@ footer div a {
     background-color: rgb(131, 73, 131);  
     height: 40em;
     border: 1px solid navajowhite;
-}
-
-#form {
-    max-width: 70;
 }
 
 #fanletter {
