@@ -149,6 +149,34 @@ thead, tfoot { background-color: rgb(223, 207, 133)}
 
 tfoot { font-weight: bold; }
 
+main ol {
+    background: #ffe799;
+    padding: 20px;
+    margin: auto;
+    list-style-position: inside;
+    max-width: 300px;
+}
+
+main ol li {
+    background: rgb(223, 207, 133);
+    color: maroon;
+    padding: 5px;
+}
+
+main ul {
+    float: left;
+    background: rgb(189, 132, 47);
+    padding: 20px;
+    margin-left: 5px;
+    max-width: 200px;
+}
+
+main ul li {
+    background: rgb(255, 244, 226);
+    color: maroon;
+    margin: 5px;
+}
+
 textarea {
     border: solid black;
 }
