@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="Fictional Website" content="This is an example website">
         <meta name="keywords" content="html15, test webpage, css">
-        <title>Jane Doe</title>
+        <title>Fan Letters - Artistic Writers' Publishers, LTD</title>
         <link rel="stylesheet" href="styles/style.css">
         <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
         <style>
@@ -13,7 +13,7 @@
     </head>
     <body> <!-- body tag start of body section display on screen -->
 <header>
-    <img id="logo" style="float:left; margin-right:10px;" src ="Images/Logo.png" alt="logo" width="110">
+    <img id="logo" style="float:left; margin-right:10px;" src ="images/logo.png" alt="logo" width="110">
     <h1>Artistic Writers' Publishers, Ltd.</h1>
 </header>
 <nav>
@@ -21,13 +21,13 @@
         <li id="home"> <a style="color: white;" href="home.html"> Home </a> </li>
         <li id="abouttheworlds"> <a style="color: black;" href="abouttheworlds.html"> About the Worlds </a></li>
         <li id="sneakpeek"> <a style="color: black;" href="sneakpeek.html"> Sneak Peek </a></li>
-        <li id="abouttheauthor"> <a style="color: white;" href="abouttheauthor.html"> About the Author </a></li>
+        <li id="abouttheauthor"> <a style="color: white;" href="abouttheowner.html"> About the Owner </a></li>
         <li id="active5"> <a style="color: white;" href="fanletters.html"> Fan Letters </a></li></li>
     </ul>
 </nav>
 
 <audio style="align-items: center;" controls autoplay loop>
-    <source src="Audio/undertaleost-homeextended.mp3" type="audio/mp3">
+    <source src="audio/toby_fox_undertale_soundtrack_25_dating_start!.mp3" type="audio/mp3">
     Your browser does not support the audio element.
 </audio>
 
@@ -41,7 +41,7 @@
                 <label for="lname">Last name:<span class="required">*</span></label>
                 <input type="text" id="lname" name="lname"autofocus required><br>
                 <label for="email">E-Mail (Optional):</label>
-                <input type="text" id="email" autofocus></p>
+                <input type="text" id="email" name="email" autofocus></p>
                 
                 <p>
                 Identify as: (Optional):<br>
@@ -55,7 +55,9 @@
                 
 
                 Message to the author:<br>
-
+                
+                <p><label for="aname">Author Name:<span class="required">*</span></label>
+                <input type="text" id="aname" name="aname" autofocus required></p><br>
                 <p><textarea id="fanletter" placeholder="Type your message to the author here!"></textarea></p>
                 <p><input type="submit" id="submit" value="Submit">
                 </p>

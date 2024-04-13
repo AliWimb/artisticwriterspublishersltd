@@ -29,8 +29,17 @@ section.intro{
 }
 
 .videocontent{
+    float:right;
+    width: 49%;
+    border: 2px solid rgb(56, 214, 56);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.videocontent2{
     float:left;
     width: 49%;
+    margin-top: 85px;
     border: 2px solid rgb(56, 214, 56);
     background: rgb(255, 255, 255);
     overflow: auto;
